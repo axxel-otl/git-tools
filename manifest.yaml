@@ -1,16 +1,18 @@
 ---
-git-cc:
-  origin: "./src/git-cc"
-  destiny: "${home}/.local/bin/git-cc"
-git-fork:
-  origin: "./src/git-fork"
-  destiny: "${home}/.local/bin/git-fork"
-git-graph:
-  origin: "./src/git-graph"
-  destiny: "${home}/.local/bin/git-graph"
-git-pr:
-  origin: "./src/git-pr"
-  destiny: "${home}/.local/bin/git-pr"
-git-tree:
-  origin: "./src/git-tree"
-  destiny: "${home}/.local/bin/git-tree"
+syms:
+  common:
+    git-cc:
+      origin: "./src/git-cc"
+      destiny: "${home}/.local/bin/git-cc"
+    git-fork:
+      origin: "./src/git-fork"
+      destiny: "${home}/.local/bin/git-fork"
+    git-graph:
+      origin: "./src/git-graph"
+      destiny: "${home}/.local/bin/git-graph"
+    git-pr:
+      origin: "./src/git-pr"
+      destiny: "${home}/.local/bin/git-pr"
+    git-tree:
+      origin: "./src/git-tree"
+      destiny: "${home}/.local/bin/git-tree"
